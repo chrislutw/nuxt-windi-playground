@@ -2,7 +2,7 @@
   <section>
     <div class="relative">
       <div
-        class="h-30 w-full portrait:!bg-red-500 sm:(!bg-red-200) absolute top-0"
+        class="bg-yellow-300 h-30 w-full top-0 absolute sm:(!bg-red-200) portrait:!bg-red-500"
       ></div>
       <h1 class="title">NUXT<span class="green">JS</span></h1>
       <h2 class="subtitle">Starter for CodeSandBox</h2>
@@ -33,18 +33,18 @@ export default {
   display: block;
   font-weight: 400;
   font-size: 100px;
-  color: #2E495E;
+  color: #2e495e;
   letter-spacing: 1px;
   font-size: 6em;
 }
 .green {
-  color: #00C48D;
+  color: #00c48d;
 }
 
 .subtitle {
   font-weight: 300;
   font-size: 3em;
-  color: #2E495E;
+  color: #2e495e;
   word-spacing: 5px;
   padding-bottom: 15px;
 }

@@ -5,7 +5,7 @@
   "author": "Nuxt.js Team",
   "private": true,
   "scripts": {
-    "dev": "MINIMAL=1 nuxt",
+    "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
@@ -13,6 +13,6 @@
   },
   "dependencies": {
     "nuxt": "2.15.4",
-    "nuxt-windicss": "next"
+    "nuxt-windicss": "0.8.3"
   }
 }
